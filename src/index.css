@@ -1,4 +1,5 @@
 body {
+  background-image: url(./rescources/images/corkboard.jpg);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -7,7 +8,117 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Header {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(6, 105, 92);
+  position: fixed;
+  top: 0;
+  left: 0;
+  filter: drop-shadow(0px 2px 4px #181717);
+  display: flex;
+  z-index: 3;
+}
+
+.logo {
+  margin: 15px;
+  max-width: 100px;
+}
+
+.selector {
+  align-self: center;
+}
+
+.drop-down {
+  margin: 5px;
+  margin-right: 10px;
+}
+
+.start_banner {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: 100% 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title {
+  color:rgb(254, 255, 249);
+  font-size: 70px;
+  filter: drop-shadow(0px 2px 4px #646470);
+}
+
+.link {
+  color:rgb(230, 230, 230);
+  font-size: 50px;
+}
+
+.show-photos {
+  width: 100%;
+  height: 18vh;
+  border: none;
+  background-color:rgb(6, 105, 92);
+  filter: drop-shadow(0px 2px 4px #181717);
+  font-size: 36px;
+  color: white;
+}
+
+.show-photos-center {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-array {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.clicked-photo-container {
+  height: 220vh;
+  width: 220vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 30px;
+  position: fixed;
+  z-index: 1;
+  top: -100px;
+  left: -100px;
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  max-width: 325px;
+  height: auto;
+  margin: 40px;
+  box-shadow: 0px 0px 0px 25px rgb(254, 255, 249);
+  filter: drop-shadow(0px 2px 4px #181717);
+}
+
+.photo:hover {
+  max-width: 330px;
+  margin: 40px;
+}
+
+.clicked-photo {
+  height: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  top: 55px;
+  z-index: 2;
+  display: flex;
+  justify-content: right;
+}
+
+.caption {
+  background-color: whitesmoke;
+  width: 325px;
 }
