@@ -28,33 +28,36 @@ function Photo(props) {
     return <div 
               className={containerStyle} 
               onClick={handleClick}>
-                <div 
-                  style={{ backgroundImage: `url(${props.picture})` }}
-                  className={style} 
-                  onClick={handleClick}>
-                </div>
+                  <img
+                    src={props.picture}
+                    className={style} 
+                    onClick={handleClick}
+                  />
+                  <div className="caption">{props.caption}</div>
             </div>
   }
   else if (props.checkLocation === props.location && props.checkStudent === "All") {
     return <div 
               className={containerStyle} 
               onClick={handleClick}>
-                <div 
-                  style={{ backgroundImage: `url(${props.picture})` }}
-                  className={style} 
-                  onClick={handleClick}>
-                </div>
+                  <img
+                    src={props.picture}
+                    className={style} 
+                    onClick={handleClick}
+                  />
+                  <div className="caption">{props.caption}</div>
             </div>
   }
   else if (props.checkLocation === props.location && props.students.includes(props.checkStudent)) {
     return <div 
               className={containerStyle} 
               onClick={handleClick}>
-                <div 
-                  style={{ backgroundImage: `url(${props.picture})` }}
-                  className={style} 
-                  onClick={handleClick}>
-                </div>
+                  <img
+                    src={props.picture}
+                    className={style} 
+                    onClick={handleClick}
+                  />
+                  <div className="caption">{props.caption}</div>
             </div>
   }
 }
