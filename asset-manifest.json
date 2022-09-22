@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gu_photo_app/static/css/main.758254be.css",
-    "main.js": "/gu_photo_app/static/js/main.56a1f1a8.js",
+    "main.css": "/gu_photo_app/static/css/main.8d238b2e.css",
+    "main.js": "/gu_photo_app/static/js/main.0f8db497.js",
     "static/media/IMG_0251.JPG": "/gu_photo_app/static/media/IMG_0251.bc7965be0c6ad7556c25.JPG",
     "static/media/IMG_1473.JPG": "/gu_photo_app/static/media/IMG_1473.3b0fa5399612ef683d66.JPG",
     "static/media/IMG_0063.JPG": "/gu_photo_app/static/media/IMG_0063.554e3d91c51c697dfbb3.JPG",
@@ -12,11 +12,11 @@
     "static/media/corkboard.jpg": "/gu_photo_app/static/media/corkboard.c2644c655744e5b620ad.jpg",
     "static/media/logo_9341083b51.svg": "/gu_photo_app/static/media/logo_9341083b51.023fd27153e927aec2796db1b4e8773f.svg",
     "index.html": "/gu_photo_app/index.html",
-    "main.758254be.css.map": "/gu_photo_app/static/css/main.758254be.css.map",
-    "main.56a1f1a8.js.map": "/gu_photo_app/static/js/main.56a1f1a8.js.map"
+    "main.8d238b2e.css.map": "/gu_photo_app/static/css/main.8d238b2e.css.map",
+    "main.0f8db497.js.map": "/gu_photo_app/static/js/main.0f8db497.js.map"
   },
   "entrypoints": [
-    "static/css/main.758254be.css",
-    "static/js/main.56a1f1a8.js"
+    "static/css/main.8d238b2e.css",
+    "static/js/main.0f8db497.js"
   ]
 }
