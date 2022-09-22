@@ -29,7 +29,7 @@ const data = [
       location: "Spring Break",
       students: ["Brenden",],
       orientation: "landscape",
-      caption: "",
+      caption: "Brenden at the Parthenon",
   },
   {
       id: 4,
@@ -37,7 +37,7 @@ const data = [
       location: "Guatemala",
       students: ["Patrick", "Josh", "Bryce", "Brenden",],
       orientation: "portrait",
-      caption: "",
+      caption: "The boys after jumping from a 40 foot high platform",
   },
   {
       id: 5,
@@ -45,7 +45,7 @@ const data = [
       location: "Guatemala",
       students: ["Patrick", "Josh", "Bryce", "Brenden",],
       orientation: "portrait",
-      caption: "",
+      caption: "The boys at Hobbitenango",
   },
   {
       id: 6,
@@ -53,7 +53,7 @@ const data = [
       location: "Guatemala",
       students: ["Patrick", "Josh", "Bryce", "Brenden",],
       orientation: "portrait",
-      caption: "",
+      caption: "The boys at Hobbitenango",
   },
   {
       id: 7,
@@ -61,7 +61,7 @@ const data = [
       location: "Guatemala",
       students: ["Patrick", "Valentina", "Bryce", "Josh", "Brenden", "Liza",],
       orientation: "landscape",
-      caption: "",
+      caption: "Our class including mentors and staff",
   },
 ]
 

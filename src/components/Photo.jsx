@@ -35,7 +35,9 @@ function Photo(props) {
                     className={style} 
                     onClick={handleClick}
                   />
-                  <div className="caption">{props.caption}</div>
+                  <div className="caption-container">
+                    <div className="caption">{props.caption}</div>
+                  </div>
             </div>
   }
   else if (props.checkLocation === props.location && props.checkStudent === "All") {
@@ -47,7 +49,9 @@ function Photo(props) {
                     className={style} 
                     onClick={handleClick}
                   />
-                  <div className="caption">{props.caption}</div>
+                  <div className="caption-container">
+                    <div className="caption">{props.caption}</div>
+                  </div>
             </div>
   }
   else if (props.checkLocation === props.location && props.students.includes(props.checkStudent)) {
@@ -59,7 +63,9 @@ function Photo(props) {
                     className={style} 
                     onClick={handleClick}
                   />
-                  <div className="caption">{props.caption}</div>
+                  <div className="caption-container">
+                    <div className="caption">{props.caption}</div>
+                  </div>
             </div>
   }
 }
