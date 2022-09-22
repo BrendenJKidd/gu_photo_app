@@ -1,3 +1,8 @@
+@font-face {
+  font-family: ;
+  src: url();
+}
+
 body {
   background-image: url(./rescources/images/corkboard.jpg);
   margin: 0;
@@ -102,8 +107,7 @@ body {
 }
 
 .photo:hover {
-  max-width: 330px;
-  margin: 40px;
+  transform: scale(1.04);
 }
 
 .clicked-photo {
@@ -121,7 +125,24 @@ body {
   align-items: center;
 }
 
+.caption-container {
+  display: flex;
+  justify-content: center;
+}
+
 .caption {
-  background-color: whitesmoke;
-  width: 325px;
+  font-family: 'Reenie Beanie';
+  max-width: 150px;
+  max-height: 150px;
+  font-size: 25px;
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:10em;
+  width:10em;
+  padding:1em;
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  transform: rotate(-6deg);
+  transition: transform .15s linear;
 }

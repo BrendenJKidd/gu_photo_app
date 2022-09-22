@@ -21,7 +21,9 @@ function Photo(props) {
                     className={style} 
                     onClick={handleClick}
                   />
-                  <div className="caption">{props.caption}</div>
+                  <div className="caption-container">
+                    <div className="caption">{props.caption}</div>
+                  </div>
             </div>
   }
   else if (props.checkLocation === "All" && props.students.includes(props.checkStudent)) {
