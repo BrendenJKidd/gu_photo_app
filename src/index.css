@@ -1,8 +1,3 @@
-@font-face {
-  font-family: ;
-  src: url();
-}
-
 body {
   background-image: url(./rescources/images/corkboard.jpg);
   margin: 0;
@@ -89,13 +84,17 @@ body {
   justify-content: center;
 }
 
+.photo-direction {
+  display: flex;
+  flex-direction: row;
+}
+
 .clicked-photo-container {
   height: 200vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.5);
-  margin: 30px;
-  position: fixed;
   bottom: -100px;
+  position: fixed;
   z-index: 4;
   display: flex;
   justify-content: center;

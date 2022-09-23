@@ -13,18 +13,28 @@ function Photo(props) {
   const containerStyle = isBig && "clicked-photo-container"
 
   if (props.checkLocation === "All" && props.checkStudent === "All") {
-    return <div 
-              className={containerStyle} 
-              onClick={handleClick}>
+    return <>
+              <div>
                   <img
                     src={props.picture}
-                    className={style} 
+                    className="photo" 
                     onClick={handleClick}
                   />
                   <div className="caption-container">
                     <div className="caption">{props.caption}</div>
                   </div>
-            </div>
+              </div>
+                  {isBig && 
+                    <div 
+                      className='clicked-photo-container'
+                      onClick={handleClick}>
+                      <img 
+                          src={props.picture} 
+                          className="clicked-photo" 
+                          onClick={handleClick}
+                      />
+                    </div>}
+          </>
   }
   else if (props.checkLocation === "All" && props.students.includes(props.checkStudent)) {
     return <div 
